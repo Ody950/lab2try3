@@ -15,12 +15,14 @@ namespace ATMtest
             decimal actual;
 
 
+
             // Act
             actual = Program.ViewBalance();
 
             // Assert
             Assert.Equal(TestBalance1, actual);
         }
+
 
         [Theory]
         [InlineData(-50)]
